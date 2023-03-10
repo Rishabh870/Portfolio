@@ -69,6 +69,10 @@ body {
   align-items: center;
 }
 
+.textarea {
+  resize: none;
+}
+
 @media (min-width: 992px) {
   .section {
     padding-top: 6rem;
