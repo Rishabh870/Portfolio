@@ -1,16 +1,11 @@
 import React from 'react';
+import '../App.css';
+import { fadeIn } from '../animation';
+import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'framer-motion';
 
 export const About = () => {
-  return (
-    <section>
-      <div
-        className="py-8 py-lg-24 vh-100 d-flex align-items-center"
-        id="about"
-      >
-        About
-      </div>
-    </section>
-  );
+  return <section className=' section ' id='about'></section>;
 };
 
 export default About;

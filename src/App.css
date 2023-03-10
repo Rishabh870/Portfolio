@@ -1,40 +1,77 @@
-.App {
-  text-align: center;
-  height: 100%;
-  background-color: #61dafb;
+/* base layer */
+body {
+  font-family: 'Secondary Font', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h2 {
+  font-family: 'Primary Font', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 10%;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h3 {
+  font-family: 'Primary Font', sans-serif;
+  font-weight: 600;
+  font-size: 1.625rem;
+  margin-bottom: 1.5rem;
+  line-height: 2.84615;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn {
+  border-radius: 9999px;
+  font-family: 'Primary Font', sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
+
+.btn-sm {
+  height: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-lg {
+  height: 3.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 1rem;
+}
+
+.btn-link {
+  font-size: 1rem;
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, #42a6e3, #ff56f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1rem;
+}
+
+.text-gradient:hover {
+  background-image: linear-gradient(to right, #ff56f6, #42a6e3);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 992px) {
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
