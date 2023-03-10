@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import { fadeIn } from '../animation';
-import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 
 export const About = () => {
@@ -52,7 +51,10 @@ export const About = () => {
               style={{ maxWidth: 'max-content' }}
             >
               <button className='btn btn-sm fs-5 btn-lg'>Contact Me</button>
-              <a href='http://' className='text-decoration-none'>
+              <a
+                href='http://'
+                className='text-decoration-none fs-5 text-gradient'
+              >
                 My Portfolios
               </a>
             </motion.div>
