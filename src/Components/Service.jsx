@@ -35,7 +35,7 @@ export const Service = () => {
             initial='hidden'
             whileInView='show'
           >
-            <h2 className='h2 fw-bold mb-4'>What I Do</h2>
+            <h2 className='h2 fw-bold mb-4 text-cl'>What I Do</h2>
             <h3 className='h3 max-w-455 mb-4'>
               I'm a Freelancer, Designer, Full Stack Web Developer with 2 year
               of Experience
@@ -58,7 +58,7 @@ export const Service = () => {
                     <h4 class='fw-bold fs-4 mb-4'>{name}</h4>
                     <p class='fs-5 lh-base'>{description}</p>
                   </div>
-                  <div>{links}</div>
+                  {/* <div>{links}</div> */}
                 </motion.div>
               );
             })}

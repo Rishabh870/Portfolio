@@ -8,13 +8,13 @@ export const Contact = () => {
         <div className='d-flex flex-column flex-lg-row mx-lg-5 align-items-lg-center'>
           {/* text */}
           <motion.div
-            variants={fadeIn('up', 0.4)}
+            variants={fadeIn('down', 0.4)}
             initial='hidden'
             whileInView='show'
             className='flex-grow-1'
           >
             <div>
-              <h4 className='text-uppercase text-primary font-medium mb-2 tracking-wide'>
+              <h4 className='text-uppercase text-cl font-medium mb-2 tracking-wide'>
                 Get in touch
               </h4>
               <h2

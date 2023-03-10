@@ -29,39 +29,39 @@ const Container = styled.div`
 export const Navigation = () => {
   return (
     <Navbar>
-      <Nav className="mx-auto">
+      <Nav className='mx-auto'>
         <Container>
           <Link
-            to="home"
-            activeClass="active"
+            to='home'
+            activeClass='active'
             smooth={true}
             spy={true}
-            className="cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center "
+            className='cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center '
             style={{ color: 'rgba(255, 255, 255, 0.5)' }}
           >
             <BiHomeAlt2 />
           </Link>
           <Link
-            to="about"
-            activeClass="active"
+            to='about'
+            activeClass='active'
             smooth={true}
             spy={true}
             style={{ color: 'rgba(255, 255, 255, 0.5)' }}
-            className="cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center"
+            className='cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center'
           >
             <HiOutlineUser />
           </Link>
           <Link
-            to="service"
-            activeClass="active"
+            to='service'
+            activeClass='active'
             smooth={true}
             spy={true}
             style={{ color: 'rgba(255, 255, 255, 0.5)' }}
-            className="cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center"
+            className='cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center'
           >
             <RiServiceLine />
           </Link>
-          <Link
+          {/* <Link
             to="work"
             activeClass="active"
             smooth={true}
@@ -70,14 +70,14 @@ export const Navigation = () => {
             className="cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center"
           >
             <AiOutlineProject />
-          </Link>
+          </Link> */}
           <Link
-            to="contact"
-            activeClass="active"
+            to='contact'
+            activeClass='active'
             smooth={true}
             spy={true}
             style={{ color: 'rgba(255, 255, 255, 0.5)' }}
-            className="cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center"
+            className='cursor-pointer w-60 h-60 d-flex align-items-center justify-content-center'
           >
             <AiOutlineContacts />
           </Link>

@@ -27,6 +27,7 @@ export const Banner = () => {
             >
               <span className='mr-4 fw-bold'>I am a </span>
               <TypeAnimation
+                className='text-cl'
                 sequence={['Full Stack Developer', 2000, 'Designer', 2000]}
                 speed={50}
                 wrapper='span'
@@ -53,7 +54,10 @@ export const Banner = () => {
               style={{ maxWidth: 'max-content' }}
             >
               <button className='btn btn-sm fs-5 btn-lg'>Contact Me</button>
-              <a href='http://' className='text-decoration-none'>
+              <a
+                href='http://'
+                className='text-decoration-none fs-5 text-gradient text-gradient:hover'
+              >
                 My Portfolios
               </a>
             </motion.div>
@@ -64,10 +68,10 @@ export const Banner = () => {
               className='d-flex align-items-center fs-5 gap-4 mx-auto '
               style={{ maxWidth: 'max-content' }}
             >
-              <a href=''>
+              <a href='' className='text-cl '>
                 <FaLinkedin />
               </a>
-              <a href=''>
+              <a href='' className='text-cl '>
                 <FaGithub />
               </a>
             </motion.div>

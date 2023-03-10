@@ -6,16 +6,17 @@ import About from './Components/About';
 import Service from './Components/Service';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <Banner />
       <Navigation />
       <About />
       <Service />
-      <Work />
+      {/* <Work /> */}
       <Contact />
     </div>
   );
